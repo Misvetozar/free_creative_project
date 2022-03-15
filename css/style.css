@@ -287,18 +287,16 @@ display: flex;
     margin-bottom: 100px;
 }
 .see_more {
-    box-sizing: border-box;
-    align-items: center;
+    position: relative;
+    left: 40%;
+    display: inline-block;
     color: #FFFFFF;
+    flex-direction: row;
     font-size: 26px;
     padding: 23px 47px;
     background: #2B59C3;
     border-radius: 40px;
-    width: 250px;
-    height: 75px;
     margin-bottom: 100px;
-    position: relative;
-    left: 40%;
 }
 .guide {
     font-size: 38px;
@@ -372,5 +370,72 @@ button {
     padding-left: 30px;
 }
 .checkbox {
-    margin-top: 21px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
 }
+.four_page {
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    font-family: "20 Kopeek";
+}
+.name_steps {
+    margin-top: 150px;
+    margin-bottom: 83px;
+    width: 450px;
+    height: 152px;
+    left: 285px;
+    top: 7506px;
+
+    /* Desk — H1 */
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 100%;
+    /* or 55px */
+
+    /* Black */
+    color: #181818;
+}
+.all_steps {
+    display: flex;
+    margin: auto;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between ;
+    margin: auto;
+    margin-top: 60px;
+}
+.block_1 {
+    width: 380px;
+    font-size: 26px;
+}
+.block_2  {
+    width: 190px;
+    font-size: 15px;
+}
+
+.fifth_page{
+    color: #FFFFFF;
+    background-image: url('../images/garanty.png');
+    background-size: auto;
+    max-width: 1680px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.garanty {
+    padding-top: 282px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1110px;
+}
+.text_about_2 {
+    font-size: 55px;
+}
+
