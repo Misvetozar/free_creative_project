@@ -1,0 +1,21 @@
+@media only screen and (max-width: 668px) {
+    nav {
+        display: none;
+    }
+    .first_page {
+        background-image: url('../images/bag.png');
+        background-size: cover;
+        max-width: 1680px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    .text_1 {
+        font-size: 25px;
+        max-width: 350px;
+        color: #FFFFFF;
+    }
+    .text_2 {
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+}

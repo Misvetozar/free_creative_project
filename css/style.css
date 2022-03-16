@@ -421,7 +421,7 @@ button {
 .fifth_page{
     color: #FFFFFF;
     background-image: url('../images/garanty.png');
-    background-size: auto;
+    background-size: 100% 100%;
     max-width: 1680px;
     margin: auto;
     justify-content: space-between;
@@ -437,5 +437,57 @@ button {
 }
 .text_about_2 {
     font-size: 55px;
+}
+.six_page {
+    margin: auto;
+    max-width: 1110px;
+    justify-content: space-between;
+    font-family: "20 Kopeek";
+}
+.feedback {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1110px;
+    margin-top: 150px;
+    margin-bottom: 127px;
+}
+.class_feedback {
+    display: block;
+    width: 50%;
+}
+.feed_back_2 {
+    width: 100%;
+    border: none;
+    border: 1px solid #181818;
+    opacity: 0.5;
+    border-radius: 10px;
+    width: 445px;
+    height: 71px;
+}
+.button_4 {
+    padding-top: 48px;
+    padding-left: 30px;
+}
+.news {
+    display: flex;
+}
+.fs_15 {
+    font-size: 15px;
+}
+.fs_18 {
+    font-size: 18px;
+
+}
+.box_news {
+    background: #2B59C3;
+    border-radius: 10px;
+    margin-right: 30px;
+    max-width: 255px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.free_cr {
+    margin-top: 38px;
+    margin-bottom: 20px;
 }
 
