@@ -29,6 +29,30 @@
     justify-content: space-between;
     align-items: center;
 }
+.first_page_1 {
+    background-image: url('../images/012.jpg');
+    background-size: cover;
+    max-width: 1680px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.first_page_2 {
+    background-image: url('../images/013.jpg');
+    background-size: cover;
+    max-width: 1680px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.first_page_3 {
+    background-image: url('../images/014.jpg');
+    background-size: cover;
+    max-width: 1680px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
 header {
     max-width: 1110px;
     display: flex;
@@ -40,6 +64,7 @@ header {
     width: 100%;
 }
 .logo {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
@@ -49,31 +74,31 @@ header {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 25px;
-    padding: 9px 13px 5px 13px;
+    padding: 10px 14px 11px 14px;
+    display: flex;
 }
 .ig {
-    width: 36px;
-    height: 36px;
-    left: 1359px;
-    top: 32px;
-
     /* White */
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 25px;
-    padding: 9px 9px 5px 9px;
+    padding: 9px 9px 9px 9px;
+    display: flex;
 }
 header nav ul {
     display: flex;
-
     list-style-type: none;
+}
+header nav {
+    display: flex;
 }
 .logo_name {
     position: absolute;
     width: 220px;
     height: 43px;
     color: #FFFFFF;
-    padding-left: 22px;
+    padding-left: 100px;
+    padding-top: 15px;
     font-family: '20 Kopeek';
 }
 .number {
@@ -83,6 +108,9 @@ header nav ul {
     padding: 10px 27px 6px 36px;
     font-family: '20 Kopeek';
     text-decoration: none;
+}
+.number2 {
+    margin-top: 12px;
 }
 .mr-23 {
     padding-right: 23px;

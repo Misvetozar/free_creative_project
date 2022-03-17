@@ -9,6 +9,7 @@
         margin: auto;
         justify-content: space-between;
         align-items: center;
+    }
     .text_1 {
         font-size: 25px;
         max-width: 350px;
